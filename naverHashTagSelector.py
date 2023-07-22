@@ -5,11 +5,11 @@ comEdu = ["#엔트리", "#레고", "#로블록스", "#마인크래프트", "#스
           "#타자연습", "#온라인코딩파티", "#코딩이란", "#unity","#프로그래밍", 
           "#인공지능", "#코딩", "#코딩공부혼자하기", "#로봇", "#로봇코딩", 
           "#특성화고", "#코딩파티", "#아두이노", "#블록코딩", "#유니티", 
-          "#4차산업혁명", "#개발", "#드론자격증", "cos자격증", "코딩능력마스터"
-          "#코딩학원", "#코딩자격증", "coa자격증", "#컴퓨터자격증", "#C언어", 
+          "#4차산업혁명", "#개발", "#드론자격증", "#cos자격증", "#코딩능력마스터",
+          "#코딩학원", "#코딩자격증", "#coa자격증", "#컴퓨터자격증", "#C언어", 
           "#서빙로봇", "#프로그램", "#출력", "#정보", "#개발자", 
-          "소프트웨어", "AI", "SW", "SW/AI", "엔트리ai",
-          "메이커스",
+          "#소프트웨어", "#AI", "#SW", "#SW/AI", "#엔트리ai",
+          "#메이커스",
           ]
 comSkillUp = ["#ITQ자격증","#블록체인", "#VR", "#솔루션", "#자율주행", "#머신러닝", "#사물인터넷", 
           "#엑셀매크로", "#OCR", "#웹디자인", "#크롤링", "#공공데이터", "#언리얼엔진",     
@@ -67,7 +67,7 @@ etc = ["#용접기", "#환경오염", "#설날", "#무료웹툰", "#직장내괴
 # `haedalIf` 해달에듀 어필 선택 키워드 - 2개
 # `etc` 기타 - 2개
 
-result = random.sample(comEdu, 10) + random.sample(comSkillUp, 2) + random.sample(parent, 5) + random.sample(education, 2) + random.sample(etc, 2) + haedalESS + random.sample(haedalIf, 2)
+result = random.sample(comEdu, 10) + random.sample(comSkillUp, 2) + random.sample(parent, 5) + random.sample(education, 2) + random.sample(etc, 2) + haedalEss + random.sample(haedalIf, 2)
 
 # 결과 확인하기
 print(result)
